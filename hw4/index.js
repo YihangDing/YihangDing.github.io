@@ -34,6 +34,7 @@ function settextField(text, predict) {
   textField.value = text;
   doPredict(predict);
 }
+
 function setPredictFunction(predict) {
   const textField = document.getElementById('text-entry');
   textField.addEventListener('input', () => doPredict(predict));
@@ -63,6 +64,7 @@ function prepUI(predict) {
   });
   settextField(examples['example1'], predict);
 }
+
 async function urlExists(url) {
   status('Testing url ' + url);
   try {
@@ -98,6 +100,7 @@ async function loadHostedMetadata(url) {
     status('Loading metadata failed.');
   }
 }
+
 class Classifier {
 
   async init(urls) {
@@ -116,7 +119,7 @@ class Classifier {
     this.wordIndex = metadata['word_index']
   }
 
-predict(text) {
+  predict(text) {
     // Convert to lower case and remove all punctuations.
     const inputText =
         text.trim().toLowerCase().replace(/(\.|\,|\!)/g, '').split(' ');
