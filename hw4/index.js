@@ -8,11 +8,11 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'While Tom was eating his supper, and stealing sugar as opportunity offered, Aunt Polly asked him questions that were full of guile, and very deep--for she wanted to trap him into damaging revealments. ',
+      'While Tom was eating his supper, and stealing sugar as opportunity offered, Aunt Polly asked him questions that were full of guile, and very deep.',
   'example2':
-      '“I do not believe a word of it, my dear. If he had been so very agreeable, he would have talked to Mrs. Long.',
+      '"I do not believe a word of it, my dear. If he had been so very agreeable, he would have talked to Mrs. Long."',
   'example3':
-      'The Count shrugged his broad shoulders. "Then I must begin," said he, "by binding you both to absolute secrecy for two years; at the end of that time the matter will be of no importance.'   
+      'The Count shrugged his broad shoulders. "Then I must begin," said he, "by binding you both to absolute secrecy for two years; at the end of that time the matter will be of no importance.'
   'example4':
       'She explained in quite a matter-of-fact way that she thought Peter sometimes came to the nursery in the night and sat on the foot of her bed and played on his pipes to her.'
 };
